@@ -1,0 +1,28 @@
+
+# Blogwebsite
+# Blogwebsite
+1)Change the database settings in settings.py with your user and password
+2)create the database mentioned in database settings
+3)Run this two commands
+
+python manage.py makemigrations
+python manage.py migrate
+
+4)After migrations run this command to access admin
+
+python manage.py createsuperuser
+
+username:
+email:
+password:
+confirm password:
+after filling all these details if the password is too common or small it will ask for confirmation like below .Press Y
+(Y/N)
+
+5)After that run the server
+
+python manage.py runserver
+
+http://127.0.0.1:8000/ click on this link and paste this to add posts and users to this blogsite
+
+http://127.0.0.1:8000/admin
